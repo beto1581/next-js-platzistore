@@ -3,16 +3,16 @@ import '@styles/Login.scss';
 import logo from '@logos/logo_yard_sale.svg'
 
 const Login = () => {
-	const form = useRef(null);
+	const form = useRef(null;
 
 	const handleSubmit = (event) => {
-		event.preventDefault();
-		const formData = new FormData(form.current);
+		event.preventDefault(;
+		const formData = new FormData(form.current;
 		const data = {
 			usename: formData.get('email'),
 			password: formData.get('password')
 		}
-		console.log(data);
+		console.log(data;
 	}
 
 	return (

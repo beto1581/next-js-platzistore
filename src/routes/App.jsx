@@ -16,7 +16,7 @@ import useInitialState from '../hooks/useInitialState';
 import '@styles/global.css';
 
 const App = () => {
-	const initialState = useInitialState();
+	const initialState = useInitialState(;
 	return (
 		<AppContext.Provider value={initialState}>
 			<BrowserRouter>
