@@ -1,17 +1,6 @@
 module.exports = {
   reactStrictMode: true,
-  // env: {
-  //   customKey: 'customValue',
-  // },
-  // basePath: '/dist',
-  // compress: true,
-  // async redirects() {
-  //   return [
-  //     {
-  //       source: '/hola',
-  //       destination: 'https://gndx.dev',
-  //       permanent: true,
-  //     }
-  //   ]
-  // }
+  images: {
+    domains: ['placeimg.com', 'api.lorem.space', 'vuzoon.com', 'www.complementosdelcafe.com', 'www.cronista.com', 'www.tecnologia-informatica.com', 'www.multiofertas.hn', 'www.walmart.com.hn', 'i.blogs.es', 'www.amazon.com', 'www.sony.com.hn', '*.*','cdn.pixabay.com','www.libreriahuequito.com','thumbs.dreamstime.com',''],
+  },
 }
