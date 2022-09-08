@@ -15,5 +15,19 @@ module.exports = {
   ],
   rules: {
     'semi': ['error', 'always'],
+    "prettier/prettier":[
+      "error",
+      {
+         "endOfLine":"auto",
+         "printWidth":80,
+         "trailingComma":"es5",
+         "semi":false,
+         "doubleQuote":true,
+         "jsxSingleQuote":true,
+         "singleQuote":false,
+         "useTabs":false,
+         "tabWidth":4
+      }
+   ],
   }
 }

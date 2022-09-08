@@ -6,18 +6,17 @@ import menu from '@icons/icon_menu.svg';
 import logo from '@logos/logo_yard_sale.svg';
 import AppContext from '@context/AppContext';
 import shoppingCart from '@icons/icon_shopping_cart.svg';
-import styles from  '@styles/Header.module.scss';
+import styles from '@styles/Header.module.scss';
 import Link from 'next/link';
 const Header = () => {
 	const { state, toggleOrder, toggleMenu } = useContext(AppContext);
-
 	return (
 		<>
 			<nav className={styles.Nav}>
 				<Image src={menu} alt="menu" className={styles.menu} />
 				<div className={styles['navbar-left']} >
 					<Link href={"/"}>
-					<Image src={logo} alt="logo" className={styles['nav-logo']}/>
+						<Image src={logo} alt="logo" className={styles['nav-logo']} />
 					</Link>
 					<ul>
 						<li>
