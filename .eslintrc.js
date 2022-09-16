@@ -1,3 +1,4 @@
+const newLocal = 0;
 module.exports = {
   root: true,
   env: {
@@ -15,19 +16,7 @@ module.exports = {
   ],
   rules: {
     'semi': ['error', 'always'],
-    "prettier/prettier":[
-      "error",
-      {
-         "endOfLine":"auto",
-         "printWidth":80,
-         "trailingComma":"es5",
-         "semi":false,
-         "doubleQuote":true,
-         "jsxSingleQuote":true,
-         "singleQuote":false,
-         "useTabs":false,
-         "tabWidth":4
-      }
-   ],
+    "prettier/prettier": 0,
+     
   }
 }
